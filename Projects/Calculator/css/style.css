@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'LCD';
+	src: url('https://tristanagregg.net/codepen/calc/font/LCDBOLD.ttf');
+ 
+}
+
+.centered {
+  border: 0px solid black;
+  background: #ffffff;
+  width: 350px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clear {
+  font-size: 18px;
+}
+
+button {
+  width:100%;
+  height:100%;
+}
+
+.title {
+  font-family: 'Codystar', cursive;
+  font-size: 30px;
+}
+
+.space {
+  height: 1px;
+}
+
+.history {
+  font-family: 'LCD';
+  font-size: 15px;
+  vertical-align: text-top;
+}
+
+.input {
+  font-family: 'LCD';
+  font-size: 40px;
+  font-weight: bold;
+  vertical-align: center;
+}
+
+.btn {
+  font-weight:bold;
+  font-size:16px;
+}
+
+.tg  {
+  width: 350px;
+  height: 600px;
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+.tg td {
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  padding:1px 1px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+}
+
+.tg th {
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  padding:1px 1px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+}
+.tg .tg-cha4 {
+  background-color:#c0c0c0;
+}
+.tg .tg-yvo5 {
+  background-color:#c0c0c0;
+  vertical-align:middle;
+}
+.tg .tg-943m {
+  background-color:#c0c0c0;
+  text-align:center
+}
+.tg .tg-9vst {
+  background-color:#efefef;
+  text-align:right
+}
